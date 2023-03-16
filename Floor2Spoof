@@ -1,4 +1,6 @@
+firesignal(game.ReplicatedStorage.EntityInfo.Caption.OnClientEvent, "Made By dinosaregood42#3641, ItzYaBoiHeck#8569, And ThatOneAmethystCreature#0001")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Floor2/main/Theme"))()
+loadstring(game:HttpGet("https://github.com/HollowedOutMods/MayhemMode/blob/main/loader.lua?raw=true"))()
 function lol()
 local number = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
 local a = game:GetService("Workspace").CurrentRooms:WaitForChild(tostring(number)).Door.Sign.Stinker

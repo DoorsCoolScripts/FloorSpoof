@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Floor2/main/Theme"))()
 function lol()
 local number = game:GetService("ReplicatedStorage").GameData.LatestRoom.Value
 local a = game:GetService("Workspace").CurrentRooms:WaitForChild(tostring(number)).Door.Sign.Stinker
@@ -6,6 +7,9 @@ local c = a.Highlight
 a.Text = "0"..tostring(number+101)
 b.Text = "0"..tostring(number+101)
 c.Text = "0"..tostring(number+101)
+if number == 51 then
+    loadstring(game:GetService("https://raw.githubusercontent.com/DoorsCoolScripts/Floor2/main/Theme"))()
+end
 wait(0.05)
 lol()
 end
